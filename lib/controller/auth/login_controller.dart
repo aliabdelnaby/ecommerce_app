@@ -23,9 +23,7 @@ class LoginControllerImp extends LoginController {
   login() {
     var formdata = formstate.currentState;
     if (formdata!.validate()) {
-      print('valid');
     } else {
-      print('not valid');
     }
   }
 

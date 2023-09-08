@@ -19,7 +19,6 @@ class SignUpControllerImp extends SignUpController {
     if (formstate.currentState!.validate()) {
       Get.offNamed(AppRoute.verifyCodeSignUp);
     } else {
-      print('not valid');
     }
   }
 
