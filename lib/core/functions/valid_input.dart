@@ -18,7 +18,7 @@ validInput(String val, int min, int max, String type) {
     }
   }
   if (val.isEmpty) {
-    return "43".tr;
+    return "44".tr;
   }
 
   if (val.length < min) {
