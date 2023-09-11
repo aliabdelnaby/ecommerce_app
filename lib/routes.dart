@@ -10,7 +10,6 @@ import 'package:ecommerce_app/view/screen/auth/success_signup.dart';
 import 'package:ecommerce_app/view/screen/auth/forgetpassword/verify_code.dart';
 import 'package:ecommerce_app/view/screen/auth/verify_code_signup.dart';
 import 'package:ecommerce_app/view/screen/onboarding.dart';
-import 'package:ecommerce_app/view/test.dart';
 import 'package:get/get.dart';
 
 List<GetPage<dynamic>>? routes = [
