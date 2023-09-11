@@ -10,12 +10,15 @@ import 'package:ecommerce_app/view/screen/auth/success_signup.dart';
 import 'package:ecommerce_app/view/screen/auth/forgetpassword/verify_code.dart';
 import 'package:ecommerce_app/view/screen/auth/verify_code_signup.dart';
 import 'package:ecommerce_app/view/screen/onboarding.dart';
+import 'package:ecommerce_app/view/test.dart';
 import 'package:get/get.dart';
 
 List<GetPage<dynamic>>? routes = [
   // auth
   GetPage(
       name: '/', page: () => const Language(), middlewares: [MyMiddleWare()]),
+  // GetPage(name: "/", page: () => Test()),
+
   GetPage(name: AppRoute.login, page: () => const Login()),
   GetPage(name: AppRoute.signUp, page: () => const SignUp()),
   GetPage(name: AppRoute.forgetPassword, page: () => const ForgetPassword()),
